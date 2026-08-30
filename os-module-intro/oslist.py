@@ -1,8 +1,9 @@
 import os
 
-folders = os.listdir("data")
+path = os.path.dirname(os.path.abspath(__file__))
 
-print(folders)
+folders = os.listdir(f"{path}/data")
 
 for folder in folders:
     print(folder)
+    print(os.listdir(f"{path}/data/{folder}"))
