@@ -1,4 +1,4 @@
-# Constructors in Python #
+# Constructors in Python
 
 class Person:
     def __init__(self,n,o):
@@ -20,7 +20,7 @@ b.info()
 
 # print(a.name)
 # a.name="Yashi"
-# a.occ="HR"
+# a.occ="HR" 
 # a.info()
 
 
