@@ -1,5 +1,10 @@
 # Instance Variables vs Class Variables in Python #
 
+# instance var - Instance variables belong to a specific object. Each object maintains its own independent copy of the variable. 
+#                Changing it on one object does not affect any other object
+# class var    - Class variables belong to the class itself. They are shared by all instances of that class. 
+#                If you modify the class variable via the class, the change is reflected across all existing and future objects
+
 class Employee:
     def __init__(self,name):
         self.name=name             # Instance Variable
@@ -38,13 +43,3 @@ print(Employee.companyName)
 emp2=Employee("Narayan")
 emp2.companyName="Microsoft"
 emp2.showDetails()
-
-
-
-
-
-
-
-
-
-
