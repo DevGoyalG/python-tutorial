@@ -1,5 +1,7 @@
 # Class Methods in Python #
 
+# class methods - it is a type of method that is bound to the class and not the instance of the class
+
 class Employee:
     company="Apple"
     def show(self):
@@ -13,8 +15,8 @@ e1.name="Rishu"
 e1.show()
 e1.changeCompany("Tesla")
 e1.show()
-print(Employee.company)
-
+print(Employee.company)    # it print - Apple
+ 
 
 
 class Employee:
@@ -31,9 +33,4 @@ e1.name="Rishu"
 e1.show()
 e1.changeCompany("Tesla")
 e1.show()
-print(Employee.company)
-
-
-
-
-
+print(Employee.company)     # it print - Tesla

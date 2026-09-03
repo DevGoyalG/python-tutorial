@@ -1,7 +1,15 @@
 class Employee:
-    def __init__(self):
-        self.__name = "Dev"
+    company="Apple"
+    def show(self):
+        print(f"The name is {self.name} and company is {self.company}")
+    
+    @classmethod
+    def changeCompany(cls,newCompany):
+        cls.company=newCompany
 
-a = Employee()
-# print(a.__name)                # cannot be accessed directly
-print(a._Employee__name)    
+e1=Employee()
+e1.name="Rishu"
+e1.show()
+e1.changeCompany("Tesla")
+e1.show()
+print(Employee.company)
