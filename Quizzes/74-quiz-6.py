@@ -1,0 +1,1 @@
+# Implement a Cat class by using the animal class. Add some methods specific to cat.
