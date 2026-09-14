@@ -73,24 +73,25 @@ python-tutorial/
 │
 ├── 02-Strings/
 │   ├── 11-strings.py
-│   ├── 12-quick-quiz.py
 │   ├── 12-string-slicing-and-operations.py
-│   └── 13-string-methods.py
+|   ├── 13-string-methods.py
+│   └── 28-f-strings.py
 │
 ├── 03-Conditionals-Statements/
 │   ├── 14-if-else-conditional-statements.py
-│   └── 16-match-case-statements.py
+│   ├── 16-match-case-statements.py
+│   └── 41-shorthand-if-else.py
 │
 ├── 04-Loops/
 │   ├── 17-for-loops.py
 │   ├── 18-while-loops.py
 │   ├── 19-break-and-continue.py
-│   └── 35-for-loop-with-else.py
+│   ├── 35-for-loop-with-else.py
+│   └── 42-enumerate-function.py
 │
 ├── 05-Functions/
 │   ├── 20-functions.py
 │   ├── 21-function-arguments.py
-│   ├── 28-f-strings.py
 │   ├── 29-docstrings.py
 │   └── 30-recursion.py
 │
@@ -116,21 +117,28 @@ python-tutorial/
 │   └── 38-raising-custom-errors.py
 │
 ├── 11-Advanced-Python/
-│   ├── 41-shorthand-if-else.py
-│   ├── 42-enumerate-function.py
 │   ├── 43-virtual-environment.py
 │   ├── 44-how-import-works.py
 │   ├── 45-name-main.py
 │   ├── 46-os-module.py
 │   ├── 48-local-vs-global-variables.py
-│   ├── 49-file-io.py
-│   ├── 50-read-readlines-methods.py
-│   ├── 51-seek-tell-functions.py
-│   ├── 52-lambda-functions.py
-│   ├── 53-map-filter-reduce.py
 │   └── 54-is-vs-equal.py
 │
-├── 12-OOP/
+├── 12-File-Handling/
+│   ├── 49-file-io.py
+│   ├── 50-readlines-writelines-methods.py
+│   ├── 51-seek-tell-truncate-functions.py
+│   ├── myFile.txt
+│   ├── myFile2.txt
+│   ├── myFile3.txt
+│   ├── myFile4.txt
+│   └── myFile5.txt
+│
+├── 13-Functional-Programming/
+│   ├── 52-lambda-functions.py
+│   └── 53-map-filter-reduce.py
+│
+├── 14-OOP/
 │   ├── 56-introduction-to-oops.py
 │   ├── 57-classes-and-objects.py
 │   ├── 58-constructors.py
@@ -142,31 +150,35 @@ python-tutorial/
 │   ├── 66-instance-vs-class-variables.py
 │   ├── 69-class-methods.py
 │   ├── 70-class-methods-alternative-constructors.py
-│   ├── 71-dir-dict-help.py
+│   ├── 71-dir-dict-help-methods.py
 │   ├── 72-super-keyword.py
 │   ├── 73-magic-dunder-methods.py
-│   └── 74-method-overriding.py
+│   ├── 74-method-overriding.py
+│   └── 77-operator-overloading.py
 │
-├── 13-Inheritance/
-│   ├── 77-operator-overloading.py
+├── 15-Inheritance/
 │   ├── 78-single-inheritance.py
 │   ├── 79-multiple-inheritance.py
 │   ├── 80-multilevel-inheritance.py
 │   └── 81-hybrid-and-hierarchical-inheritance.py
 │
-├── 14-Modules-Utilities/
+├── 16-Modules-Utilities/
 │   ├── 84-time-module.py
 │   ├── 85-command-line-utility.py
 │   ├── 86-walrus-operator.py
-│   └── 87-shutil-module.py
+│   ├── 87-shutil-module.py
+│   ├── 87-shutil-module/
+│   │   ├── main.py
+│   │   └── main2.py
+│   └── 89-requests-module.py
 │
-├── 15-Advanced-Concepts/
-│   ├── 89-requests-module.py
+├── 17-Advanced-Concepts/
 │   ├── 91-generators.py
 │   ├── 92-function-caching.py
 │   └── 95-regular-expressions.py
 │
-├── 16-Concurrency/
+├── 18-Concurrency/
+│   ├── files/
 │   ├── 96-asyncio.py
 │   ├── 97-multithreading.py
 │   └── 98-multiprocessing.py
