@@ -219,8 +219,10 @@ python-tutorial/
 ├── Quizzes/
 │   ├── 05-quiz-1.py
 │   ├── 10-quiz-2.py
-│   ├── 30-quiz-3.py
-│   └── 38-quiz-4.py
+│   ├── 12-quiz-3.py
+|   ├── 30-quiz-4.py
+|   ├── 38-quiz-5.py
+│   └── 74-quiz-6.py
 │
 ├── LICENSE
 └── README.md
