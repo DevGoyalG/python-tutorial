@@ -54,6 +54,13 @@ A structured collection of my **Python learning journey**, including concepts, e
 - AsyncIO
 - Multithreading
 - Multiprocessing
+- NumPy
+- Pandas
+- Data Manipulation & Analysis
+- Reading Data from Various Sources
+- Logging
+- Multiple Loggers
+- Pydantic
 - Practical Python Projects
 
 ## 📂 Repository Structure
@@ -182,6 +189,23 @@ python-tutorial/
 │   ├── 96-asyncio.py
 │   ├── 97-multithreading.py
 │   └── 98-multiprocessing.py
+|
+├── 19-Data-Analysis-Using-Python/
+│   ├── 19-01-numpy.ipynb
+│   ├── 19-02-pandas.ipynb
+│   ├── 19-03-data-manipulation-and-analysis-with-pandas.ipynb
+│   └── 19-04-read-data-from-various-data-source-with-pandas.ipynb
+│
+├── 20-Logging/
+│   ├── 20-01-logging.ipynb
+│   ├── 20-02-logging-with-multiple-loggers.ipynb
+│   ├── 20-03-logging-example/
+│   │   └── app.py
+│   └── logs/
+│
+├── 21-Pydantic/
+│   ├── 21-01-pydantic.ipynb
+│   └── Pydantic-Concept.pdf
 │
 ├── Exercises/
 │   ├── 01-Calculator/
@@ -236,8 +260,10 @@ python-tutorial/
 |   ├── 38-quiz-5.py
 │   └── 74-quiz-6.py
 │
+├── .gitignore
 ├── LICENSE
-└── README.md
+├── README.md
+└── requirements.txt
 
 ```
 
